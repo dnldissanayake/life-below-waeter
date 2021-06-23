@@ -147,7 +147,9 @@ h2 {
 .header-slider .header-slider-caption .btn {
     border-color: #ffffff;
 }
-
+.header-slider .header-slider-caption .btn i {
+    margin-right: 5px;
+}
   
   /* Style inputs */
   input[type=text], select, textarea {
