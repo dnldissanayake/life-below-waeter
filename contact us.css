@@ -102,6 +102,9 @@ h2 {
 .header .navbar a {
     color: #353535;
 }
+.header .navbar a:hover {
+    color: #4fddf0b3;
+}
 
 * {
     box-sizing: border-box;
