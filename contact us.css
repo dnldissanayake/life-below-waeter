@@ -214,7 +214,26 @@ h2 {
     background: transparent;
     
 }
-  
+.contact .contact-info h2 {
+    margin-bottom: 15px;
+    margin-top: 2rem;
+}
+
+.contact .contact-info h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.contact .contact-info h3 i {
+    width: 20px;
+    color: #FF6F61;
+    margin-right: 5px;
+}
+
+.contact .social {
+    position: relative;
+    width: 100%;
+} 
   
   
   
