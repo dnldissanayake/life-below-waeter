@@ -11,6 +11,13 @@ body {
 a {
     color: #FF6F61;
 }
+a:hover,
+a:active,
+a:focus {
+    color: #63d2f3;
+    outline: none;
+    text-decoration: none;
+}
 * {
     box-sizing: border-box;
     
