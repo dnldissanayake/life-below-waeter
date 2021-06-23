@@ -51,6 +51,11 @@ h2 {
     transition: background 0.5s;
     z-index: 11;
 }
+.back-to-top i {
+    padding-top: 12px;
+    color: #ffffff;
+}
+
 * {
     box-sizing: border-box;
     
