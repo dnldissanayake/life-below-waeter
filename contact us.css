@@ -114,6 +114,10 @@ h2 {
 .header .navbar a:hover i {
     color: #353535;
 }
+.header-slider {
+    position: relative;
+    width: 100%;
+}
 
 * {
     box-sizing: border-box;
