@@ -8,6 +8,9 @@ body {
   background: #bcc7e9;
   background-repeat: no-repeat;   
 }
+a {
+    color: #FF6F61;
+}
 * {
     box-sizing: border-box;
     
