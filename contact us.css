@@ -111,6 +111,9 @@ h2 {
     text-align: center;
     margin-right: 8px;
 }
+.header .navbar a:hover i {
+    color: #353535;
+}
 
 * {
     box-sizing: border-box;
