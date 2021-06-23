@@ -121,7 +121,22 @@ h2 {
 .header-slider .header-slider-item {
     position: relative;
 }
-
+.header-slider .header-slider-caption {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #3fb9f1b3;
+    opacity: 1;
+    transition: all 0.3s;
+    z-index: 1;
+}
   
   /* Style inputs */
   input[type=text], select, textarea {
