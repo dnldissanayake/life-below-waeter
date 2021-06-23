@@ -166,7 +166,11 @@ h2 {
     height: 50%;
     overflow: hidden;
 }
-
+.header .img-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
   
   
   
