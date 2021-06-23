@@ -198,7 +198,14 @@ h2 {
 .header .img-text:hover p {
     margin: 0;       
 }
-
+/**********************************/
+/********** Contact CSS ***********/
+/**********************************/
+.contact {
+    position: relative;
+    padding-top: 30px;
+    color: #ffff;
+}
 
   
   
