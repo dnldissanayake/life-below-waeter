@@ -58,6 +58,23 @@ h2 {
 /**********************************/
 /*********** Header CSS ***********/
 /**********************************/
+.heading{
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    min-height: 750px;
+    margin-bottom: 2px;
+    padding-bottom: 70px;
+    flex-direction: column;
+    background-position: 0px 0px, 100% 50%;
+    background-size: auto, cover;
+    white-space: normal;
+    object-fit: fill;
+  
+}
+
 * {
     box-sizing: border-box;
     
