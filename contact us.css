@@ -74,6 +74,9 @@ h2 {
     object-fit: fill;
   
 }
+.header {
+    position: relative;
+}
 
 * {
     box-sizing: border-box;
