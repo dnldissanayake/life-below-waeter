@@ -137,6 +137,14 @@ h2 {
     transition: all 0.3s;
     z-index: 1;
 }
+.header-slider .header-slider-caption p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+}
+
   
   /* Style inputs */
   input[type=text], select, textarea {
