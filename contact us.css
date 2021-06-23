@@ -118,33 +118,10 @@ h2 {
     position: relative;
     width: 100%;
 }
+.header-slider .header-slider-item {
+    position: relative;
+}
 
-* {
-    box-sizing: border-box;
-    
-  }
-  .topnav {
-    overflow: hidden;
-    background-color:grey;
-    
-  }
-  .topnav a {
-    float: left;
-    color: lightgrey;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-   
-  }
-  .topnav a:hover {
-    background-color: rgb(51, 32, 32);
-    color:white;
-  }
-  .topnav a.active {
-    background-color:black;
-    color: white;
-  }
   
   /* Style inputs */
   input[type=text], select, textarea {
