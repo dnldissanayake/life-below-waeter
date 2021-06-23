@@ -4,8 +4,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color:black;
-  
-   
+  font-weight: 400;
+  background: #bcc7e9;
+  background-repeat: no-repeat;   
 }
 * {
     box-sizing: border-box;
