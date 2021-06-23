@@ -18,6 +18,11 @@ a:focus {
     outline: none;
     text-decoration: none;
 }
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
 * {
     box-sizing: border-box;
     
