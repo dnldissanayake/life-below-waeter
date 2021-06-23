@@ -105,6 +105,12 @@ h2 {
 .header .navbar a:hover {
     color: #4fddf0b3;
 }
+.header .navbar i {
+    color: #4fddf0b3;
+    width: 20px;
+    text-align: center;
+    margin-right: 8px;
+}
 
 * {
     box-sizing: border-box;
