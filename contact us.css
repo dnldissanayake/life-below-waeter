@@ -99,6 +99,10 @@ h2 {
 .header .navbar li:last-child {
     border-bottom: none;
 }
+.header .navbar a {
+    color: #353535;
+}
+
 * {
     box-sizing: border-box;
     
