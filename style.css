@@ -332,7 +332,7 @@ h2 {
     height: 100%;
     max-height: 400px;
     overflow: hidden;
-    background: #ffffff !important;
+    background: #ffffff;
 }
 
 .header .navbar-nav {
@@ -654,7 +654,7 @@ a:hover{
 .sidebar-widget.category .navbar {
     padding: 0;
     overflow: hidden;
-    background: #ffffff !important;
+    background: #ffffff ;
 }
 
 .sidebar-widget.category .navbar-nav {
