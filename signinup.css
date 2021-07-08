@@ -1,0 +1,21 @@
+/**********************************/
+/****** Register & Login CSS ******/
+/**********************************/
+.login {
+    position: relative;
+    padding-top: 30px;
+    
+ 
+
+}
+
+.login .login-form,
+.login .register-form {
+    padding: 30px;
+    background-color: #bcc7e9;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    
+}
