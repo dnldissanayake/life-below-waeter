@@ -1,56 +1,187 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
-	<title>Sign Up form</title>
-	<link rel="stylesheet" type="text/css" href="style.css"/></head>
-<body>
-<div class="wrapper">
-	
-	<div class="title">
-		Sign Up as a XXX
-	</div>
-	<div class="form">
-		<div class="input_field">
-			<label>Name</label>
-			<input type="text" class="input">
-		</div>
-		<div class="input_field">
-			<label>Age</label>
-			<input type="text" class="input">
-		</div>
-		<div class="input_field">
-			<label>Phone Number</label>
-			<input type="text" class="input">
-		</div>
-		
-		<div class="input_field">
-			<label>Address</label>
-			<textarea class="textarea"></textarea>
-		</div>
-		<div class="input_field">
-			<label>Email</label>
-			<input type="text" class="input">
-		</div>
-		<div class="input_field">
-			<label>Password</label>
-			<input type="password" class="input">
-		</div>
-		<div class="input_field">
-			<label>Re-enter Password</label>
-			<input type="password" class="input">
-		</div>
-		<div class="input_field">
-			<input type="submit" value="Sign Up" class="btn">
-		</div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>life below water/loging</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+       
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
 
-		<div >Already have an account? <a href="index3.html">Signin</a></div>
-		<br><br>
-		<div >Or, do you want to enter as a yyyy  <a href="index4.html">Sign In </a> | <a href="index2.html">Sign Up</a></div>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
 
-	</div>
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
 
-</div>
-</body>
+        <!--  Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+       <div  style="background-image: url(img/alex-rose-sxAkZvheBFs-unsplash.jpg);">
+            <div id="nav" class="sticky-nav">
+        
+             <nav class="navbar navbar-expand-lg  ">
+               <div class="container">
+               <a class="navbar-brand" href="#">logo</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+                 <span></span>
+                 <span></span>
+               </button>
+             
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto"  >
+                   <li class="nav-item active">
+                     <a class="nav-link active" aria-current="page" href="index.html">Home </a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#">about us</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#">sevice</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="my-account.html">My Acount</a>
+                  </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#">team</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="contact.html">contact us</a>
+                   </li>
+                  
+                   
+                 <form class="form-inline my-2 my-lg-0">
+                   <button class="btn  my-2 my-sm-0 form-control mr-sm-2" type="submit">  <a  href="login.html">sing up</a></button>
+                   <button class="btn  my-2 my-sm-0 form-control mr-sm-2" type="submit"> <a  href="singin.html">sing in</a></button>
+                 </form>
+                </div>
+               </div>
+             </nav>
+            </div>
+                
+               
+               
+                <!-- Breadcrumb Start -->
+                <div class="breadcrumb-wrap">
+                    <div class="container-fluid">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Products</a></li>
+                            <li class="breadcrumb-item active">Contact</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+        
+        <!-- Login Start -->
+        <div class="login">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">    
+                        <div class="register-form">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label>First Name</label>
+                                    <input class="form-control" type="text" placeholder="First Name">
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Last Name"</label>
+                                    <input class="form-control" type="text" placeholder="Last Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>E-mail</label>
+                                    <input class="form-control" type="text" placeholder="E-mail">
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Mobile No</label>
+                                    <input class="form-control" type="text" placeholder="Mobile No">
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Password</label>
+                                    <input class="form-control" type="text" placeholder="Password">
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Retype Password</label>
+                                    <input class="form-control" type="text" placeholder="Password">
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Login End -->
+        
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Get in Touch</h2>
+                            <div class="contact-info">
+                                <p><i class="fa fa-map-marker"></i>nsbm</p>
+                                <p><i class="fa fa-envelope"></i>email@example.com</p>
+                                <p><i class="fa fa-phone"></i>077xxxxxxx</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>Follow Us</h2>
+                            <div class="contact-info">
+                                <div class="social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2>team Info</h2>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Condition</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h2> Info</h2>
+                            <ul>
+                                <li><a href="#">sevice</a></li>
+                                <li><a href="#"> team</a></li>
+                                <li><a href="#"> Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+            
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+     
+    </body>
 </html>
+	
