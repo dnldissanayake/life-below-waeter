@@ -46,8 +46,8 @@
             </div>
              </nav>
             </div>
-            <div style="color: red; background-image: url(image/alex-rose-sxAkZvheBFs-unsplash.jpg); height: 700px; ">
-                <center><h1><br><br><br><br><br><?php echo $error_message?></h1></center>
+            <div style="color: black; height: 700px; ">
+                <center><h1 style="font-family: 'Times New Roman'; font-size: 2rem;"><br><br><br><br><br><?php echo $error_message?></h1></center>
 
             </div>
             </body>
