@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>life below water/loging</title>
+        <title>life below water/signup  0101</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
        
         <!-- Favicon -->
@@ -22,46 +22,48 @@
     </head>
 
     <body>
-       <div  style="background-image: url(image/alex-rose-sxAkZvheBFs-unsplash.jpg);">
-            <div id="nav" class="sticky-nav">
-        
-             <nav class="navbar navbar-expand-lg  ">
-               <div class="container">
-               <a class="navbar-brand" href="#">logo</a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-                 <span></span>
-                 <span></span>
-               </button>
-             
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto"  >
-                   <li class="nav-item active">
-                     <a class="nav-link active" aria-current="page" href="index.html">Home </a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="about us.html">about us</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="Sevice.html">sevice</a>
-                   </li>
-                   <li class="nav-item">
-                    <a class="nav-link" href="my-account.html">My Acount</a>
-                  </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="contact.html">contact us</a>
-                   </li>
-                  
-                   
-                 <form class="form-inline my-2 my-lg-0">
-                   <button class="btn  my-2 my-sm-0 form-control mr-sm-2" type="submit">  <a  href="login.html">sing up</a></button>
-                   <button class="btn  my-2 my-sm-0 form-control mr-sm-2" type="submit"> <a  href="singin.html">sing in</a></button>
-                 </form>
-                </div>
+       <!--header navbar-->
+
+    <div style="background-image: url(image/main.jpg);">
+        <div id="nav" class="sticky-nav">
+    
+         <nav class="navbar navbar-expand-lg">
+           <div class="container">
+            <div class="logo-nav ">
+                <a class="navbar-brand" href="index.html"><img src="image/logo03.png" alt="logo"></a>
                </div>
-             </nav>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+             <span></span>
+             <span></span>
+           </button>
+         
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto"  >
+               <li class="nav-item active">
+                 <a class="nav-link active" aria-current="page" href="index.html">Home </a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link " href="about us.html">About Us</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="Sevice.html">Service</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" href="myAccount.php">My Account</a>
+              </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="contact.html">Contact Us</a>
+               </li>
+              </ul>
+             <form class="form-inline my-2 my-lg-0">
+                <button class="btn  my-2 my-sm-0 form-control mr-sm-2 " type="submit">  <a href="login.html">Sign Up</a></button>
+                <button class="btn  my-2 my-sm-0 form-control mr-sm-2" type="submit"> <a  href="singin.html">Sign In</a></button>
+             </form>
             </div>
-                
+           </div>
+         </nav>
+        </div>
         
         <!-- Login Start -->
         <div class="login">
@@ -71,7 +73,7 @@
                         <div class="register-form">
                             <div class="row">
                                 <div class="col-md-12">
-<form action="sinup3.php" method="post" enctype="multipart/form-data"> 
+        <form action="sinup3.php" method="post" enctype="multipart/form-data">                             
                                     <label>Name</label>
                                     <input class="form-control" type="text" placeholder="Name" name="username">
                                 </div>
@@ -82,17 +84,19 @@
                                 </div>
                                 <div class="col-md-12">
                                     <label>Birth Day</label>
-                                    <input class="form-control" type="date" placeholder="Birthday" name="birthday">
+                                    <input class="form-control" type="date" name="birthday">
                                 </div>
                                 <div class="col-md-12">
                                     <label>Password</label>
                                     <input class="form-control" type="password" placeholder="Password" name="password">
                                 </div>
-                               
+                               <!-- <div class="col-md-12">
+                                    <label>Retype Password</label>
+                                    <input class="form-control" type="text" placeholder="Password">
+                                </div>-->
                                 <div class="col-md-12">
                                     <button class="btn">Register</button>
-         </form>                              
-                                    
+        </form>                        
                                 </div>
                             </div>
                         </div>
@@ -103,88 +107,57 @@
         </div>
         <!-- Login End -->
         
-        <!-- Footer Start -->
-        <div class="footer">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h2>Get in Touch</h2>
-                            <div class="contact-info">
-                                <p><i class="fa fa-map-marker"></i>123 E Store, Los Angeles, USA</p>
-                                <p><i class="fa fa-envelope"></i>email@example.com</p>
-                                <p><i class="fa fa-phone"></i>+123-456-7890</p>
+      <!-- Footer Start -->
+      <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer-widget">
+                        <h2>Get in Touch</h2>
+                        <div class="contact-info">
+                            <p><i class="fa fa-map-marker"></i>NSBM Green University, Sri Lanka</p>
+                            <p><i class="fa fa-envelope"></i>dnldissanayake1999@gmail.com</p>
+                            <p><i class="fa fa-phone"></i>+94 764496776</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer-widget">
+                        <h2 class="social">Follow Us</h2>
+                        <div class="contact-info">
+                            <div class="social">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h2>Follow Us</h2>
-                            <div class="contact-info">
-                                <div class="social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h2>Company Info</h2>
-                            <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms & Condition</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h2>Purchase Info</h2>
-                            <ul>
-                                <li><a href="#">Pyament Policy</a></li>
-                                <li><a href="#">Shipping Policy</a></li>
-                                <li><a href="#">Return Policy</a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
-        
-        <!-- Footer Bottom Start -->
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 copyright">
-                        <p>Copyright &copy; . All Rights Reserved by dnldissanayake</p>
-                    </div>
-
-                    <div class="col-md-6 template-by">
-                        <p>Template By dema</a></p>
-                    </div>
+    </div>
+    <!-- Footer End -->
+    
+    <!-- Footer Bottom Start -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 copyright text-center">
+                    <p>Copyright &copy; <a href="#">dnldissanayake</a>. All Rights Reserved</p>
                 </div>
             </div>
         </div>
-        <!-- Footer Bottom End -->       
-        
-        <!-- Back to Top -->
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/slick/slick.min.js"></script>
-        
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+    </div>
+    <!-- Footer Bottom End -->       
+    
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!--  Javascript -->
+    <script src="js/main.js"></script>
+</body>
 </html>
